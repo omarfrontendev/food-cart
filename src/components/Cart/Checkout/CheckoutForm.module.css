@@ -1,0 +1,48 @@
+.checkout-input {
+    width: 73%;
+    margin: 0;
+    margin: 3px 0 10px;
+    display: block;
+}
+.checkout-input:focus {
+    background-color: rgb(73, 73, 255);
+    border-color: blue;
+}
+.inputError {
+    width: 73%;
+    margin: 0;
+    margin: 3px 0 10px;
+    display: block;
+    background-color: rgb(245, 83, 83);
+    border-color: red;
+}
+.order-btn {
+    width: -moz-fit-content;
+    width: fit-content;
+    display: block;
+    margin: 0 0 0 auto;
+    padding: .75rem 1.5em;
+    font-size: 16px;
+    float: right;
+    margin-left: 14px;
+}
+.innActive {
+    width: -moz-fit-content;
+    width: fit-content;
+    display: block;
+    margin: 0 0 0 auto;
+    padding: .75rem 1.5em;
+    font-size: 16px;
+    float: right;
+    margin-left: 14px;
+    background-color: #ccc;
+    color: #333;
+    border-color: #333;
+    pointer-events: none;
+}
+.error-msg {
+    color: red;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: -8px;
+}

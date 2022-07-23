@@ -1,0 +1,75 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #000000c7;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .3s ease-in-out;
+    opacity: 0;
+    animation: show-layout 300ms ease-out forwards;
+}
+
+@keyframes show-layout {
+    100% {
+        opacity: 1;
+    }
+}
+.card {
+    width: 50rem;
+    max-width: 70%;
+    transform: translateY(-80%);
+}
+.show-card {
+    animation: show-card 600ms ease-out forwards;
+}
+@keyframes show-card {
+    100% {
+        transform: translateY(0%);
+    }
+}
+.overlay ul {
+    list-style: none;
+}
+.overlay ul li {
+
+}
+.total {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px 0;
+}
+.btns {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    column-gap: 10px;
+}
+.btns button {
+    width: fit-content;
+    padding: .5rem 2rem;
+}
+.close-btn {
+    background: #FFF;
+    color: #8a2b06;
+    border: 2px solid #8a2b06;
+    font-weight: bold;
+}
+.order-btn {
+    border: 2px solid #8a2b06;
+}
+.order-btn:hover {
+    background-color: #4d1601;
+    border-color: #4d1601;
+}
+.close-btn:hover {
+    color: #FFF;
+    background-color: #8a2b06;
+}

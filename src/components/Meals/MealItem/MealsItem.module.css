@@ -1,0 +1,22 @@
+.meal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 8px 14px;
+}
+.meal:not(:last-child) {
+    border-bottom: 1px solid #ccc;
+}
+.name {
+
+}
+.desc {
+    font-weight: 500;
+    font-style: italic;
+    padding: 5px 0;
+}
+.price {
+    font-weight: 700;
+    color: #b04517;
+    font-size: 18px;
+}

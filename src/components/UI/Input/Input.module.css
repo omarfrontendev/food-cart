@@ -1,0 +1,17 @@
+.control {
+
+}
+.input {
+    margin-left: 5px;
+    width: 40px;
+    padding: 3px 5px;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid #b9b9b9;
+}
+.label {
+    font-weight: bold;
+    font-size: 14px;
+    color: #242323;
+    margin-right: 6px;
+}
